@@ -89,7 +89,19 @@ section h3 {
 .participants ul {
   margin-left: 20px;
   color: #555;
-  list-style-type: disc;
+  list-style-type: none;
+}
+
+.participant-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: red;
+  margin-left: 10px;
 }
 
 .participants li {
